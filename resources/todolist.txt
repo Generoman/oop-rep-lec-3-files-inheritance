@@ -1,0 +1,12 @@
+Ta ut søpla
+false
+---
+Betale regninger
+true
+---
+Vaske klær
+false
+---
+Lage mat
+false
+---
