@@ -1,3 +1,5 @@
+package readwrite;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -67,9 +69,7 @@ public class TodoMenuHandler {
         for (int i = 0; i< todoList.size(); i++) {
 
             if (!todoList.get(i).isDone()) {
-                String itemString = String.valueOf(i) + 1 + " " +
-                        "[ ] " +
-                        todoList.get(i).getItemName();
+                String itemString = (i+1) + " [ ] " + todoList.get(i).getItemName();
                 System.out.println(itemString);
             }
         }
