@@ -50,7 +50,6 @@
   * IntelliJ gir beskjed når en metode må behandle en exception, og viser også hvilken type exception som skal behandles
 * `throws`-nøkkelordet:
   * Brukes for å vise at en metode sender en unchecked exception videre til en annen metode
-  * En exception kan kastes helt opp til `main`-metoden
   * Om den ikke fanges opp noen steder, vil programmet til slutt kræsje
 * `try`/`catch`-blokk:
   * Brukes som et alternativ til `throws` nøkkelordet
